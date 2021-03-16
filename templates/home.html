@@ -1,7 +1,6 @@
-<h1>this is home</h1>
-
-<form action="">
-	<textarea name="" id="" cols="30" rows="10"></textarea>
+<h1>Vice Versa</h1>
+<form action="{% url 'reverse' %}">
+	<textarea cols="50" rows="10" name="usertext"></textarea>
 	<br><br>
 	<input type="submit" value="Reverse!">
 </form>
